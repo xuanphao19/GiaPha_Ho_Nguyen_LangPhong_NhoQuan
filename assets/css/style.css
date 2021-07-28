@@ -1,0 +1,98 @@
+
+.mangrong {
+  height: 1000px;
+}
+* { margin: 0; padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  border-style: hidden; 
+  border: 0px; border:none;
+  outline: none;}
+
+.clear {clear: both; } 
+html {scroll-behavior: smooth;}
+a {text-decoration: none;}
+
+body {background-image: url(../images/Anh_dep/Nen_Rong_Cuon.png);
+  background-repeat: repeat; font-size: 0;
+  background-size:contain;}
+
+.nenbia {
+  position: relative;;
+  display: flex;
+  padding-top: 48%;
+  background-image: url(../images/Anh_dep/nen_menutrai_ngang.jpg);
+  background-repeat: no-repeat;
+  background-clip:padding-box;
+  background-size: cover;
+  font-size: 0;
+}
+  .biagiapha {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 6%;
+  width: 30%;
+  box-shadow: 10px 15px 15px rgba(27, 27, 26, 0.6);
+}
+.image_bia img{
+  width: 100%;
+  bottom: 0;
+  border-radius: 10px;
+}
+#header {
+  font-size: 0;
+} 
+.header_img {
+  position: relative;
+}
+.header_img .CuonthuRongchau {
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 1px 0 rgba(27, 27, 26, 0.15); 
+  border-radius: 4px;
+}
+.header_img .Logo_Hacnang {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(245, 245, 8, 0.8); 
+}
+
+
+/* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.text-chaohoi marquee {   
+  position: fixed; 
+  top: 40%; left: 0; right: 0;
+  height: 130px; width:100%; 
+  text-align: center !important;
+  font-style: italic; font-weight: 900; 
+  color: rgb(255, 0, 0); 
+  text-shadow: 0 0 1px rgb(228, 253, 3);}
+
+  @keyframes toi { 0% { color: #0004ff;} 
+  50% { color: rgb(0, 255, 76); } 100% { color: #0011ff; }} 
+.langphong  {font-weight:bold; font-size: 40px; 
+  -webkit-animation: toi 2000ms infinite; 
+  -moz-animation: toi 2000ms infinite; 
+  -o-animation: toi 2000ms infinite;
+  animation: toi 2000ms infinite; z-index: 555;}
+
+ @keyframes my { 0% { color: #ff00f2;} 
+ 50% { color: rgb(9, 255, 0); } 100% { color: #ff0000; }}
+.giapha-chuchay, #gioithieu h2 {
+  font-weight:bold; 
+  -webkit-animation: my 1500ms infinite; 
+  -moz-animation: my 1500ms infinite; 
+  -o-animation: my 2000ms infinite;
+  animation: my 600ms infinite; z-index: 5;}
+
+
