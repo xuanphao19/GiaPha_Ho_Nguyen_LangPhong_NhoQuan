@@ -51,7 +51,6 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 .header_img .CuonthuRongchau {
   top: 0;
   width: 100%;
-  box-shadow: 1px 1px 0 rgba(27, 27, 26, 0.2); 
   opacity: 0.9;
 }
 .header_img .Logo_Hacnang {
@@ -65,14 +64,13 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 }
 
 .nav {
-  background-image: url(../images/Nen_phong_do.jpg);
   width: 100%;
-  height: 70px;
-  opacity: 0.8;
+  height: 48px;
   margin: 0;
   padding: 0;
   display: flex;
   font-size: 18px;
+  background-color: rgba(173, 48, 43, 0.918);
   font-family: Arial, Helvetica, sans-serif;
 }
 .nav_list {
@@ -102,6 +100,7 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 /* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*  
 .text-chaohoi marquee {   
   position: fixed; 
   top: 40%; left: 0; right: 0;
@@ -126,6 +125,6 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   -webkit-animation: my 1500ms infinite; 
   -moz-animation: my 1500ms infinite; 
   -o-animation: my 2000ms infinite;
-  animation: my 600ms infinite; z-index: 5;}
+  /* animation: my 600ms infinite; z-index: 5;} */
 
 
