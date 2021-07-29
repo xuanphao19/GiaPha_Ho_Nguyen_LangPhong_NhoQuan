@@ -27,15 +27,15 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   background-clip:padding-box;
   background-size: cover;
   font-size: 0;
-  opacity: 0.7;
 }
-  .biagiapha {
+.biagiapha {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 6%;
   width: 30%;
-  box-shadow: 10px 15px 15px rgba(27, 27, 26, 0.6);
+  border-radius: 10px;
+  box-shadow: 10px 15px 15px rgba(27, 27, 26, 0.7);
 }
 .image_bia img{
   width: 100%;
@@ -51,9 +51,8 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 .header_img .CuonthuRongchau {
   top: 0;
   width: 100%;
-  box-shadow: 1px 1px 0 rgba(27, 27, 26, 0.15); 
-  border-radius: 4px;
-  opacity: 0.8;
+  box-shadow: 1px 1px 0 rgba(27, 27, 26, 0.2); 
+  opacity: 0.9;
 }
 .header_img .Logo_Hacnang {
   position: absolute;
@@ -62,9 +61,41 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   transform: translateX(-50%);
   width: 25%;
   border-radius: 10px;
-  box-shadow: 0px 0px 25px rgba(245, 245, 8, 0.8); 
+  box-shadow: 0px 0px 20px rgba(245, 245, 8, 0.8); 
 }
 
+.nav {
+  background-image: url(../images/Nen_phong_do.jpg);
+  width: 100%;
+  height: 70px;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.nav_list li a{
+
+}
+.nav_item + .nav_item {
+  margin-left: 30px;
+}
+.nav_item {
+
+}
+
+.sub_nav {
+
+}
 
 /* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
