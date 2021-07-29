@@ -14,7 +14,7 @@
 html {scroll-behavior: smooth;}
 a {text-decoration: none;}
 
-body {background-image: url(../images/Anh_dep/Nen_Rong_Cuon.png);
+body {background-image: url(../images/Nen_Rong_Cuon.png);
   background-repeat: repeat; font-size: 0;
   background-size:contain;}
 
@@ -22,11 +22,12 @@ body {background-image: url(../images/Anh_dep/Nen_Rong_Cuon.png);
   position: relative;;
   display: flex;
   padding-top: 48%;
-  background-image: url(../images/Anh_dep/nen_menutrai_ngang.jpg);
+  background-image: url(../images/nen_menutrai_ngang.jpg);
   background-repeat: no-repeat;
   background-clip:padding-box;
   background-size: cover;
   font-size: 0;
+  opacity: 0.8;
 }
   .biagiapha {
   position: absolute;
@@ -39,6 +40,7 @@ body {background-image: url(../images/Anh_dep/Nen_Rong_Cuon.png);
 .image_bia img{
   width: 100%;
   bottom: 0;
+  opacity: 0.05;
   border-radius: 10px;
 }
 #header {
@@ -52,6 +54,7 @@ body {background-image: url(../images/Anh_dep/Nen_Rong_Cuon.png);
   width: 100%;
   box-shadow: 1px 1px 0 rgba(27, 27, 26, 0.15); 
   border-radius: 4px;
+  opacity: 0.8;
 }
 .header_img .Logo_Hacnang {
   position: absolute;
