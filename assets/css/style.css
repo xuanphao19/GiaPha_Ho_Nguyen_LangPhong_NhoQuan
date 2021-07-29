@@ -27,7 +27,7 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   background-clip:padding-box;
   background-size: cover;
   font-size: 0;
-  opacity: 0.8;
+  opacity: 0.7;
 }
   .biagiapha {
   position: absolute;
@@ -40,7 +40,6 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 .image_bia img{
   width: 100%;
   bottom: 0;
-  opacity: 0.05;
   border-radius: 10px;
 }
 #header {
