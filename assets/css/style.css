@@ -11,8 +11,8 @@
   outline: none;}
 
 .clear {clear: both; } 
-html {scroll-behavior: smooth;}
 a {text-decoration: none;}
+html {scroll-behavior: smooth;}
 li {  list-style: none;}
 body {background-image: url(../images/Nen_Rong_Cuon.png);
   background-repeat: repeat;
@@ -91,14 +91,17 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
 .nav_list > li {
   float: left;
   min-width: 150px;
-  padding: 13px 10px;
+  padding: 14px 10px;
   text-align: center;
 }
 .nav_list > li >a{
   padding: 2px 10px;
   color: #f5f508cc;
   text-transform: uppercase;
-  text-shadow: 2px 2px 0 rgba(243, 243, 239, 0.411);
+  text-shadow: 1px 1px 0 rgba(62, 49, 177, 0.46);
+}
+.nav_list .nav_item { 
+  position: relative;
 }
 .subnav {
   position: absolute;
@@ -107,10 +110,10 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   display: none;
 }
 .subnav li {
-  min-width: 170px;
+  min-width: 260px;
   height: 40px;
   text-align: left;
-  background-color: rgba(207, 221, 221, 0.429);
+  background-color: rgba(207, 221, 221, 0.5);
   box-shadow: 0 0 5px rgb(0 0 0 );
   border-radius: 4px;
   z-index: 9999;
@@ -119,7 +122,8 @@ body {background-image: url(../images/Nen_Rong_Cuon.png);
   margin: 10px; padding: 2px 4px;
   font-size: 16px;
   color: brown;
-  line-height: 40px;}
+  line-height: 40px;
+  text-shadow: 0.5px 0.5px 0 rgba(62, 49, 177, 0.6);}
 
 .nav_list>li:hover >.subnav {
   display: block; cursor: pointer; }
